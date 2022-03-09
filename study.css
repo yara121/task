@@ -1,0 +1,67 @@
+
+:root {
+  --clr-light: #fff;
+  --clr-dark: #ff6057;
+  --fw-reg: 400;
+  --fw-bold: 700;
+  font-family: 'Poppins', sans-serif;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px 20px;
+}
+.menu {
+  justify-content: space-around;
+  color: var(--clr-light);
+}
+.element {
+  width: 20px;
+  padding: 20px;
+}
+.one {
+  background-image: url('img/Sans\ titre-1-mdpi.png');
+
+  height:800px;
+
+}
+
+.intro {
+  display: flex;
+  color: var(--clr-light);
+  width: 300px;
+}
+.btn {
+  width: 179px;
+  height: 46;
+
+  background: linear-gradient(to right, #ff6057, #990099);
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+.accent {
+  background: white;
+  color: var(--clr-dark);
+}
+.intro-section {
+  margin-left: 40px;
+}
+
+.intro-img {
+  margin-bottom: 0px;
+  width: 493px;
+  height: 209px;
+}
+.intro-end {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-bottom: 50px;;
+
+}
