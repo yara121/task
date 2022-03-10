@@ -8,12 +8,16 @@
   --fw-bold: 700;
   font-family: 'Poppins', sans-serif;
 }
+body {
+  display: block;
+  margin: 8px;
+}
 .head {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 20px;
-  margin: 20px 20px;
+  margin: 0 20px 20px 20px;
 }
 .menu {
   justify-content: space-around;
@@ -82,7 +86,8 @@
   color: #888888;
 }
 .solution::before,
-.solution-three::before {
+.solution-three::before,
+.solution-five::before {
   content: '';
   width: 80px;
   height: 6px;
@@ -102,8 +107,6 @@
   margin-top: 100px;
 }
 .solution h1 {
-  font-weight: 700;
-  font-size: 30px;
   color: black;
 }
 /* .icon{
@@ -301,4 +304,16 @@
   to {
     opacity: 1;
   }
+}
+.container-five {
+  margin-top: 100px;
+}
+.solution-five {
+  margin-left: 200px;
+}
+.img-five {
+  margin-right: 100px;
+}
+.img-five img {
+  width: 500px;
 }
