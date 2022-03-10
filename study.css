@@ -8,9 +8,15 @@
   --fw-bold: 700;
   font-family: 'Poppins', sans-serif;
 }
+html {
+  overflow-x: hidden;
+}
 body {
   display: block;
   margin: 8px;
+}
+p {
+  color: #888888;
 }
 .head {
   display: flex;
@@ -49,6 +55,9 @@ body {
 }
 .intro h3 {
   font-weight: 200;
+}
+.intro p {
+  color: white;
 }
 .btn {
   width: 179px;
@@ -307,13 +316,124 @@ body {
 }
 .container-five {
   margin-top: 100px;
+  justify-content: flex-end;
 }
 .solution-five {
   margin-left: 200px;
+  flex-basis: 35%;
 }
 .img-five {
-  margin-right: 100px;
+  margin-right: 60px;
+
+  flex-basis: 65%;
 }
 .img-five img {
   width: 500px;
+}
+.img-section {
+  position: relative;
+}
+.fifth-img {
+  width: 800px;
+
+  top: -100px;
+  position: absolute;
+  right: -200px;
+
+  z-index: -1;
+  flex-basis: 60%;
+}
+.coral {
+  background-color: var(--clr-dark);
+}
+.special-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.dot-sixth {
+  width: 40px;
+  height: 40px;
+  box-shadow: none;
+}
+
+.sixth-p::before {
+  content: '';
+  width: 8px;
+  height: 80px;
+  display: inline-block;
+  background: #888888;
+  margin: 4px 10px;
+  border-radius: 25px;
+}
+.container-6 {
+  margin-left: 200px;
+  margin-top: 200px;
+}
+.text-sixth {
+  margin-right: 20px;
+}
+.seventh {
+  text-align: center;
+  width: 200px;
+  margin-left: 550px;
+  font-size: 20px;
+}
+
+.container-seventh {
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center;
+}
+.container-seventh h2 {
+  color: var(--clr-dark);
+}
+
+.container-7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:20px;
+  gap:4rem;
+  
+}
+
+.card {
+  display: flex;
+  width: 400px;
+
+  box-shadow: 0px 0px 10px 0px #888888;
+}
+.left-part{
+  width:400px;
+}
+.text-seventh {
+  margin-left: 2px;
+}
+.img-seventh img {
+  margin-top: 20px;
+  margin-left: 2px;
+  object-fit: contain;
+}
+.dot-2 {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #717171;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.coral {
+  background-color: var(--clr-dark);
+}
+
+.dot-container-2 {
+  text-align: center;
+}
+.right-part {
+  width: 400px;
+
+
 }
