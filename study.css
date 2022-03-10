@@ -360,13 +360,16 @@ p {
 .line::before {
   content: ' ';
   width: 4px;
-  height: 80px;
+  height: 90px;
   display: inline-block;
   background: #888888;
   margin: 4px 10px;
   border-radius: 25px;
+  position: absolute;
+  left: -110px;
+  top: 60px;
 }
-.line{
+.line {
   position: relative;
 }
 .container-6 {
@@ -448,4 +451,37 @@ footer {
   color: white;
   font-weight: none;
   font-size: 10px;
+  width: 400px;
+  margin-left: 250px;
+}
+.footer h1{
+  font-size: 20px;
+}
+.footer-text {
+  color: white;
+  font-weight: none;
+  font-size: 10px;
+}
+.footer-title{
+  margin-top:30px;
+}
+.mail {
+  width: 280px;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.footer-email {
+  position: relative;
+}
+.footer-btn {
+  position: absolute;
+  background-color: var(--clr-dark);
+  color: white;
+  width: 100px;
+  border-radius: 20px;
+  left: 178px;
+  border: none;
+  bottom: 1px;
+  padding: 9px;
 }
