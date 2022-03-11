@@ -19,8 +19,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
    
   </head>
   <body>
@@ -45,13 +47,29 @@
               <span class="line line2"></span>
               <span class="line line3"></span>
             </div>    -->
-            <div class="menu" >
-              
-              <span class="element">Browser</span>
-              <span class="element">Bootcamps</span>
-              <span class="element">How it works</span>
-              <span class="element">Testimonials</span>
+            <div class="topnav">
+              <a href="#home" class="active">Logo</a>
+              <div id="myLinks">
+                <a class="element">Browser</a>
+                <a class="element">Bootcamps</a>
+                <a class="element">How it works</a>
+                <a class="element">Testimonials</a>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
             </div>
+            
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
            
           
             <div>
