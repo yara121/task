@@ -630,6 +630,7 @@ p {
   justify-content: center;
   margin-top: 20px;
   gap: 4rem;
+  margin-bottom: 20px;
 }
 
 .card {
