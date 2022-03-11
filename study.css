@@ -13,11 +13,14 @@ html {
 }
 body {
   display: block;
-  margin: 8px;
+  margin: 0;
 }
 p {
   color: #888888;
 }
+
+/*header*/
+
 .head {
   display: flex;
   flex-direction: row;
@@ -91,6 +94,21 @@ p {
   margin-left: 100px;
   margin-bottom: 50px;
 }
+
+@media (min-width: 600px) {
+  header .head{
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+}
+@media screen {
+  
+}
+
+/*section two solution*/
+
 .solution p {
   color: #888888;
 }
@@ -197,6 +215,9 @@ p {
   right: 200px;
   z-index: -1;
 }
+
+/*section three*/
+
 .container-three {
   display: flex;
   justify-content: space-around;
@@ -209,6 +230,9 @@ p {
   margin-right: 100px;
   margin-top: 100px;
 }
+
+/*section four*/
+
 .solution-four {
   display: flex;
   flex-direction: column;
@@ -314,6 +338,7 @@ p {
     opacity: 1;
   }
 }
+/*section five*/
 .container-five {
   margin-top: 100px;
   justify-content: flex-end;
@@ -346,6 +371,9 @@ p {
 .coral {
   background-color: var(--clr-dark);
 }
+
+/*section six*/
+
 .special-list {
   display: flex;
   flex-direction: row;
@@ -379,6 +407,9 @@ p {
 .text-sixth {
   margin-right: 20px;
 }
+
+/*seventh section*/
+
 .seventh {
   text-align: center;
   width: 200px;
@@ -444,6 +475,9 @@ p {
 .right-part {
   width: 400px;
 }
+
+/*footer*/
+
 footer {
   background-color: #333333;
 }
@@ -454,7 +488,7 @@ footer {
   width: 400px;
   margin-left: 250px;
 }
-.footer h1{
+.footer h1 {
   font-size: 20px;
 }
 .footer-text {
@@ -462,8 +496,8 @@ footer {
   font-weight: none;
   font-size: 10px;
 }
-.footer-title{
-  margin-top:30px;
+.footer-title {
+  margin-top: 30px;
 }
 .mail {
   width: 280px;
